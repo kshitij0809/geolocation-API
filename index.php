@@ -1,7 +1,9 @@
-<!DOCTYPE html>
-<html lang="en-US">
+
+<?php echo "your geo location";?>
+
+
 <head>
-<title>SPACE-O :: Get Visitor Location using HTML5</title>
+<title>GeoLocation</title>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 
 <script>
@@ -41,7 +43,4 @@ function showLocation(position) {
     span.label{ font-weight: bold; color: #000;}
 </style>
 </head>
-<body>
     <p><span class="label">Your Geo-location:</span> <span id="location"></span></p>
-</body>
-</html>
